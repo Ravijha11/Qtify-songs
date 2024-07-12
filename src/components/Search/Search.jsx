@@ -1,7 +1,7 @@
 import { useState } from "react";
-import searchIcon from "../../assets/searchIcon.svg";
+import searchIcon from "../../assets/searchicon.svg";
 import styles from "./search.module.css";
-import navbarStyles from "../Navbar/navbar.module.css";
+import navbarStyles from "../Navbar/Navbar.module.css";
 
 const Search = ({ data, page }) => {
   let [value, setValue] = useState("");
